@@ -628,6 +628,14 @@ The registry you want to send cli metrics to if `send-metrics` is true.
 
 The node version to use when checking a package's `engines` map.
 
+### offline
+
+* Default: false
+* Type: Boolea
+
+Force offline mode: no network requests will be done during install. To allow
+the CLI to fill in missing cache data, see `--prefer-offline`.
+
 ### onload-script
 
 * Default: false
@@ -670,6 +678,16 @@ process is not aborted.
 
 Output parseable results from commands that write to
 standard output. For `npm search`, this will be tab-separated table format.
+
+### prefer-offline
+
+* Default: false
+* Type: Boolean
+
+If true, staleness checks for cached data will be bypassed, but missing data
+will be requested from the server. To force full offline mode, use `--offline`.
+
+This option is effectively equivalent to `--cache-min=9999999`.
 
 ### prefix
 
