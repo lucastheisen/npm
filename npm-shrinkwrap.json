@@ -1696,6 +1696,129 @@
         }
       }
     },
+    "pacote": {
+      "version": "1.0.0",
+      "from": "pacote@latest",
+      "resolved": "https://registry.npmjs.org/pacote/-/pacote-1.0.0.tgz",
+      "dependencies": {
+        "cacache": {
+          "version": "6.2.0",
+          "from": "cacache@>=6.2.0 <7.0.0",
+          "resolved": "https://registry.npmjs.org/cacache/-/cacache-6.2.0.tgz",
+          "dependencies": {
+            "@npmcorp/move": {
+              "version": "1.0.0",
+              "from": "@npmcorp/move@>=1.0.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/@npmcorp/move/-/move-1.0.0.tgz",
+              "dependencies": {
+                "@npmcorp/copy": {
+                  "version": "1.0.0",
+                  "from": "@npmcorp/copy@>=1.0.0 <2.0.0",
+                  "resolved": "https://registry.npmjs.org/@npmcorp/copy/-/copy-1.0.0.tgz"
+                },
+                "run-queue": {
+                  "version": "1.0.3",
+                  "from": "run-queue@>=1.0.3 <2.0.0",
+                  "resolved": "https://registry.npmjs.org/run-queue/-/run-queue-1.0.3.tgz"
+                }
+              }
+            }
+          }
+        },
+        "checksum-stream": {
+          "version": "1.0.3",
+          "from": "checksum-stream@>=1.0.2 <2.0.0",
+          "resolved": "https://registry.npmjs.org/checksum-stream/-/checksum-stream-1.0.3.tgz"
+        },
+        "lru-cache": {
+          "version": "4.0.2",
+          "from": "lru-cache@>=4.0.2 <5.0.0",
+          "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-4.0.2.tgz",
+          "dependencies": {
+            "pseudomap": {
+              "version": "1.0.2",
+              "from": "pseudomap@>=1.0.1 <2.0.0",
+              "resolved": "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz"
+            },
+            "yallist": {
+              "version": "2.1.2",
+              "from": "yallist@>=2.0.0 <3.0.0",
+              "resolved": "https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz"
+            }
+          }
+        },
+        "minimatch": {
+          "version": "3.0.3",
+          "from": "minimatch@>=3.0.3 <4.0.0",
+          "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz",
+          "dependencies": {
+            "brace-expansion": {
+              "version": "1.1.6",
+              "from": "brace-expansion@>=1.0.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz",
+              "dependencies": {
+                "balanced-match": {
+                  "version": "0.4.2",
+                  "from": "balanced-match@>=0.4.1 <0.5.0",
+                  "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz"
+                },
+                "concat-map": {
+                  "version": "0.0.1",
+                  "from": "concat-map@0.0.1",
+                  "resolved": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
+                }
+              }
+            }
+          }
+        },
+        "promise-inflight": {
+          "version": "1.0.1",
+          "from": "promise-inflight@>=1.0.1 <2.0.0",
+          "resolved": "https://registry.npmjs.org/promise-inflight/-/promise-inflight-1.0.1.tgz"
+        },
+        "tar-fs": {
+          "version": "1.15.1",
+          "from": "tar-fs@>=1.15.1 <2.0.0",
+          "resolved": "https://registry.npmjs.org/tar-fs/-/tar-fs-1.15.1.tgz",
+          "dependencies": {
+            "pump": {
+              "version": "1.0.2",
+              "from": "pump@>=1.0.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/pump/-/pump-1.0.2.tgz",
+              "dependencies": {
+                "end-of-stream": {
+                  "version": "1.4.0",
+                  "from": "end-of-stream@>=1.1.0 <2.0.0",
+                  "resolved": "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.0.tgz"
+                }
+              }
+            }
+          }
+        },
+        "tar-stream": {
+          "version": "1.5.2",
+          "from": "tar-stream@>=1.5.2 <2.0.0",
+          "resolved": "https://registry.npmjs.org/tar-stream/-/tar-stream-1.5.2.tgz",
+          "dependencies": {
+            "bl": {
+              "version": "1.2.0",
+              "from": "bl@>=1.0.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/bl/-/bl-1.2.0.tgz"
+            },
+            "end-of-stream": {
+              "version": "1.4.0",
+              "from": "end-of-stream@^1.0.0",
+              "resolved": "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.0.tgz"
+            },
+            "xtend": {
+              "version": "4.0.1",
+              "from": "xtend@>=4.0.0 <5.0.0",
+              "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
+            }
+          }
+        }
+      }
+    },
     "path-is-inside": {
       "version": "1.0.2",
       "from": "path-is-inside@1.0.2",
